@@ -1,5 +1,10 @@
 pipeline{
  agent any
+ environment {
+  my subect is = "k8s"
+  batch = "1"
+}
+
  parameters {
   string defaultValue: 'pac', description: 'PAC veriable', name: 'SUBJECT'
 }
