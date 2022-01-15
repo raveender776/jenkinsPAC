@@ -10,5 +10,17 @@ pipeline{
        }
      }
     }
+    stage('Working with veriables')
+    {
+      steps{
+        
+          script{
+          
+            var1 = 301
+             println "hi Your var1 value is ${var1}"
+          }
+        
+      }
+    }
   }
 }
