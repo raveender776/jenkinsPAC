@@ -5,7 +5,7 @@ environment {
   batch = "1"
 }
    stages{
-     stage1('woeking with pac stage1'){
+     stage('woeking with pac stage1'){
       steps{
        script{
           
