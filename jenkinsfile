@@ -11,9 +11,7 @@ stages{
      stage('woeking with pac stage1'){
       steps{
           script{
-        println fun()
-        println fun(200)
-        println fun(100,300)
+         println fun(400,400)
         }
          }
           
