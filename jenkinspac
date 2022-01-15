@@ -1,9 +1,10 @@
 pipeline{
  agent any
- environment {
-  my subect is = "k8s"
+environment {
+  Subject = "k8s"
   batch = "1"
 }
+
    stages{
      stage('woeking with pac'){
       steps{
