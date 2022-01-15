@@ -4,16 +4,14 @@ environment {
   Subject = "k8s"
   batch = "1"
 }
-
    stages{
-     stage('woeking with pac'){
+     stage1('woeking with pac'){
       steps{
        script{
-          var1=20
+          
            println "Hi team welcome to PAC"
-           println " Hi your var1 value is ${var1}"
-       }
-     }
-    }
-    }
+           }
+         }
+      }
+   }
 }
