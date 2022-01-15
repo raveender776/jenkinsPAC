@@ -1,17 +1,22 @@
+def fun(int a=30, int b=10)
+{
+    result = a+b
+    return result
+  } 
+
 pipeline{
  agent any
-environment {
-  Subject = "k8s"
-  batch = "1"
-}
-   stages{
+ 
+stages{
      stage('woeking with pac stage1'){
       steps{
-       script{
-          
-           println "Hi team welcome to PAC"
-           }
+          script{
+        println fun()
+        println fun(200)
+        println fun(100,300)
+        }
          }
+          
+        }
       }
    }
-}
