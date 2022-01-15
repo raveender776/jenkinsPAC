@@ -4,7 +4,7 @@ pipeline{
      stage('woeking with pac'){
       steps{
        script{
-          println "hi team welcome to PAC"
+          println "Hi team welcome to PAC"
        }
      }
     }
