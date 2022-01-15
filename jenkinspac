@@ -4,11 +4,6 @@ pipeline{
   my subect is = "k8s"
   batch = "1"
 }
-
- parameters {
-  string defaultValue: 'pac', description: 'PAC veriable', name: 'SUBJECT'
-}
-
    stages{
      stage('woeking with pac'){
       steps{
