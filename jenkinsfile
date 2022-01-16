@@ -7,7 +7,7 @@ stages{
           script{
           File obj1 = new File("/tmp/ravi.txt")
           obj1.write("hi ehre is your first lines if file opration")
-          println "file is creating ${obj1.text}
+          println "file is creating ${obj1.text}"
         }
          }
           
