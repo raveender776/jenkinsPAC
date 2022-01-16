@@ -10,7 +10,7 @@ stages{
            
            for (ele in obj1.readLines())
            {
-           println ${ele}
+           println "${ele}"
            }
         }
          }
