@@ -2,7 +2,7 @@ pipeline{
  agent any
  
 stages{
-     stage('woeking with pac stage1'){
+     stage('working with pac stage1'){
       steps{
           script{
           File obj1 = new File("/tmp/ravi.txt")
