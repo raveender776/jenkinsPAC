@@ -6,7 +6,7 @@ stages{
       steps{
           script{
           File obj1 = new File("/tmp/ravi.txt")
-          obj1.wright("hi ehre is your first lines if file opration")
+          obj1.write("hi ehre is your first lines if file opration")
         }
          }
           
