@@ -17,7 +17,7 @@ stages{
          for (i=10;i<=20;i++){
          println "hi here is your i value ${i}"
          i=i+1
-         break
+         continue
          }
         }
          }
