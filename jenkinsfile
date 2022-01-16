@@ -5,7 +5,7 @@ stages{
      stage('woeking with pac stage1'){
       steps{
           script{
-          file obj1 = new file("/tmp/ravi.txt")
+          File obj1 = new File("/tmp/ravi.txt")
           obj1.wright("hi ehre is your first lines if file opration")
         }
          }
