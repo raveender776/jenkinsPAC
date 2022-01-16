@@ -6,7 +6,7 @@ stages{
       steps{
           script{
           File obj1 = new File("/tmp/ravi.txt")
-           println "file is creating ${obj1.text}"
+           println "your file content is" \n "${obj1.text}"
         }
          }
           
