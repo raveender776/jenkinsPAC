@@ -12,6 +12,7 @@ stages{
       steps{
           script{
           println fun()
+          break
           println fun(10)
          println fun(400,400)
         }
