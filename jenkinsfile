@@ -7,6 +7,11 @@ stages{
           script{
           File obj1 = new File("/tmp/ravi.txt")
            println "your file content is \n ${obj1.text}"
+           
+           for (ele in readlins(obj1.text))
+           {
+           println ${ele}
+           }
         }
          }
           
